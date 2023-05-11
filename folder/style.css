@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -72em;
+	background: linear-gradient(
+		45deg ,#848482, #848482
+
+	
+	);
+
+	width: 100%;
+	height: 120%;
+	transform: rotate(70deg);
+	z-index: 0;
+
+
+
+
+
+}
+
+
+
+body{
+margin:  0;
+padding: 0;
+box-sizing:  border-box;
+font-family:  'Oswald', sans-serif;
+overflow: hidden;
+background-image:url(IMG/NikeBakgrunn.jpeg);
+
+}
+
+
+html {
+
+	font-size: 10px;
+		color: #fff;
+
+}
+
+/*Navigasjonsbar stil */
+
+nav{
+display: flex;
+justify-content: start;
+align-items: center;
+height: 70px;
+color: #fff;
+z-index: 99;
+position: relative;
+background-color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+nav img{
+
+	margin-left: 20px;
+
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin-left: -100px;
+
+}
+
+
+
+
+
+
+nav ul li a{
+
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 200;
+	color: #fff;
+	margin-left: 100px;
+}
+
+nav ul li a:hover{
+	opacity: .6;
+
+
+
+}
+
+/*hoved header innhold stil*/
+
+.hoved_header {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 600px 2fr;
+	margin-left: 50px
+
+}
+
+.hoved_header_innhold_h1{
+		font-size: 63px;
+}
+
+.hoved_header_innhold_p1{
+	font-size: 15px;
+	margin-top: 10px;
+	width:  80$;
+
+
+
+
+}
+
+.knapp {
+	font-size: 25px;
+	padding: 14px 65px;
+	border:  none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 50px;
+	background-color: #808080;
+
+
+}
+
+.cta:hover{
+	opacity: .6;
+
+}
+
+.hoved_bilde_img{
+	margin-left: 120px;
+	margin-top: 70px;
+	width: 700px;
+	height: 500px;
+	transform: rotate(-20deg);
+	filter: drop-shadow(
+		30px 45px 40px #161616
+
+
+		);
+
+}
+
+.search-box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% -50%);
+background: #2f3640;
+height: 40px;
+border-radius: 40px;
+padding: 10px;
+
+}
+
+.search-btn{
+;
+float: right;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #2f3640;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.search-txt{
+border: none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+color: white;
+font-size: 16px;
+transition: 0.4s;
+line-height: 40px ;
+
+
+
+}
+
+
+
+
